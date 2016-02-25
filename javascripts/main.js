@@ -1,1 +1,2 @@
-console.log('This would be the main JS file.');
+var mapObj = new L.Map('map');
+console.log("Here's the map", map);
