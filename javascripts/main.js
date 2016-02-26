@@ -1,6 +1,6 @@
 (function(w, d){
   d.onreadystatechange = function(){
-    if (d.readystate === "interactive"){
+    if (d.readyState === "interactive"){
       var mapObj = new L.Map('map');
       console.log("Here's the map", mapObj);
     }
