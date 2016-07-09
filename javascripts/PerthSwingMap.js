@@ -1,7 +1,7 @@
 (function(w, d){
   d.onreadystatechange = function(){
     if (d.readyState === "interactive"){
-      var map = L.map('danceMap').setView({lat: -31.93409949029348, lng: 115.85100173950197}, 13);
+      var mapObj = L.map('danceMap').setView({lat: -31.93409949029348, lng: 115.85100173950197}, 13);
       
       L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
       
